@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:obj="http://objects.devoteam.nl/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <obj:orderProcess>
+            <!--Optional:-->
+            <arg0>
+                <customer_id>1</customer_id>
+                <!--Optional:-->
+                <order_item>sdfgas</order_item>
+                <order_quantity>4</order_quantity>
+            </arg0>
+        </obj:orderProcess>
+    </soapenv:Body>
+</soapenv:Envelope>
